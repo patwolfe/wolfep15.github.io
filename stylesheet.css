@@ -2,14 +2,15 @@ body{
 	font-family: Trebuchet, Verdana;
 }
 
-h1{
+p{
+	font-size:16px;
+}
+
+.primary_header{
 	background-color: #3399ff;
 	font-family:Georgia, Arial;
 	padding-top:25px;
-}
-
-p{
-	font-size:16px;
+	font-size:32px;
 }
 
 .header{
@@ -27,16 +28,15 @@ p.paragraph{
 
 p.bullet{
 	font-size:18px;
-	margin-left:53px;
+	margin-left:10%;
 
 }
 
 #profpic{
-	height:36%;
-	width:36%;
+	height:30%;
+	width:30%;
 }
 
-#resume_name{
-	font-size:32px;
+.name{
 	text-decoration:underline;
 }
