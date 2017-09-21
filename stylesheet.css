@@ -1,26 +1,27 @@
 body{
 	font-family: Trebuchet, Verdana;
-}
-
-h1{
-	background-color: blue;
-	font-family: Georgia, Arial;
-	padding-top: 25px;
 	display: flex;
 }
 
+h1{
+	background-color: #3399ff;
+	font-family:Georgia, Arial;
+	padding-top:25px;
+}
+
 p{
-	font-size: 16px;
+	font-size:16px;
+	width:60%;
 }
 
 .header{
-	font-family: Georgia, Arial;
+	font-family:Georgia, Arial;
 	font-size: 24px;
 }
 
 .date{
-	font-size: 12px;
-	margin-right: 20px;
+	font-size:12px;
+	margin-right:20px;
 }
 
 #profpic{
@@ -29,5 +30,6 @@ p{
 }
 
 #resume_name{
-	font-size: 32px;
+	font-size:32px;
+	text-decoration:underline;
 }
