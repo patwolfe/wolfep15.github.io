@@ -10,7 +10,6 @@ h1{
 
 p{
 	font-size:16px;
-	width:60%;
 }
 
 .header{
@@ -20,12 +19,21 @@ p{
 
 .date{
 	font-size:12px;
-	margin-right:20px;
+}
+
+p.paragraph{
+	width:60%;
+}
+
+p.bullet{
+	font-size:18px;
+	margin-left:53px;
+
 }
 
 #profpic{
-	height=36%;
-	width=36%;
+	height:36%;
+	width:36%;
 }
 
 #resume_name{
