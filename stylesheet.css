@@ -1,0 +1,14 @@
+body{
+	font-family: Trebuchet, Verdana;
+}
+
+h1{
+	background-color: blue;
+	font-family: Georgia, Arial;
+	padding-top: 25px;
+	display: flex;
+}
+
+p{
+	font-size: 24px;
+}
