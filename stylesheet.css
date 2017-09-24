@@ -6,6 +6,10 @@ p{
 	font-size:16px;
 }
 
+ul{
+	font-size:14px;
+}
+
 .primary_header{
 	background-color: #3399ff;
 	font-family:Georgia, Arial;
@@ -26,17 +30,11 @@ p.paragraph{
 	width:60%;
 }
 
-p.bullet{
-	font-size:18px;
-	margin-left:10%;
-
-}
-
 #profpic{
 	height:30%;
 	width:30%;
 }
 
 .name{
-	text-decoration:underline;
+	text-decoration: underline;
 }
