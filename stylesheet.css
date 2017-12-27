@@ -29,6 +29,7 @@ h1 {
 	font-size:32px;
 	margin-top: 0;
 	padding-left: 1vw;
+	border-bottom: 1vh solid brown;
 }
 
 .header {
@@ -46,15 +47,15 @@ p.paragraph {
 }
 
 #profpic {
-	height:30%;
-	width:30%;
-	float: right;
-	margin-right: 7vw;
+	height:80vh;
+	width:35vw;
+	padding-right: 2.5vw;
 }
 
 
 #links {
 	margin-left: 3vw;
+	padding-top: 15vh;
 }
 
 .lnk {
@@ -63,4 +64,17 @@ p.paragraph {
 
 .resumeInfo {
 	padding-left: 1vw;
+}
+
+#intro {
+	text-align: center;
+	padding-top: 30vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+#outerFlex {
+	height: 85vh;
+	width: 100vw;
+	display: flex;
 }
