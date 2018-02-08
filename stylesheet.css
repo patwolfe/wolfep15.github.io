@@ -25,7 +25,7 @@ h1 {
 .primary_header {
 	background-color: #3399ff;
 	font-family:Georgia, Arial;
-	padding-top:25px;
+	padding-top:22px;
 	font-size:32px;
 	margin-top: 0;
 	padding-left: 1vw;
@@ -47,15 +47,10 @@ p.paragraph {
 }
 
 #profpic {
-	height:80vh;
-	width:35vw;
-	padding-right: 2.5vw;
-}
-
-
-#links {
-	margin-left: 3vw;
-	padding-top: 15vh;
+	width:50%;
+	height:50%;
+	padding-top: 3vh;
+	padding-left: 2vw;
 }
 
 .lnk {
@@ -67,14 +62,58 @@ p.paragraph {
 }
 
 #intro {
-	text-align: center;
-	padding-top: 30vh;
 	padding-left: 1vw;
 	padding-right: 1vw;
+	padding-top: 25vh;
+	text-align: center;
 }
 
-#outerFlex {
-	height: 85vh;
-	width: 100vw;
-	display: flex;
+.linkz {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+}
+
+.menu {
+  float: left;
+  padding-top:15px;
+
+}
+.menu a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: brown;
+    color: white;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.menu {
+	display: inline;
+}
+.title {
+	float: left;
+	font-family: Georgia, Arial;
+	font-size:32px;
+	padding-top: 5px;
+	padding-right: 1vw;
+
+}
+#left{
+	position: absolute;
+	float: left;
+	width: 50vw;
+	padding-left: 40vw;
+}
+
+#right {
+	position: absolute;
+	width: 50vw;
+	float: left;
 }
