@@ -117,3 +117,7 @@ p.paragraph {
 	width: 50vw;
 	float: left;
 }
+
+#gitPlug {
+	padding-bottom: 5vw;
+}
