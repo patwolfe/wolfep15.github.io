@@ -1,62 +1,136 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Patrick Wolfe</title>
-	<meta charset="utf-8"/>
-	<link href="stylesheet.css" rel = "stylesheet"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.3/css/mdb.min.css" rel="stylesheet">
+
+	<link href="style.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="primary_header"><h1 class="title">Resume<h1>
-	<ul class = "linkz">
-	  <li class = "menu"><a href="index.html">Home</a></li>
-	  <li class = "menu"><a href="bio.html">Biography</a></li>
-	  <li class = "menu"><a href="resume.html">Resume</a></li>
-	  <li class = "menu"><a href="portfolio.html">Portfolio</a></li>
-	</ul>
-</div> <div class="resumeInfo">
-<div>
-</div>
-<h3 class="header">Education</h3>
-<p>Tufts University, Medford, MA</p>
-<p>Bachelor of Science in Computer Science</p>
-<p>GPA: 3.85, Dean's List</p>
-<h3 class="header">Professional Experience</h3>
-<p>Snack Bar Tender at Town Pool | Township of Livingston 
-Recreation Department | Livingston, NJ</p>
-<p class="date">June 2015-August 2017</p>
-<ul>
-<li>Managed daily income, usually around $1000</li>
-<li>Kept inventory using Community Pass point of sale system</li>
-<li>Interacted with about 200 customers per day</li>
-</ul>
-<p>Teaching Assistant | Tufts Computer Science Department | Medford, MA</p>
-<p class="date">January 2018 - Ongoing</p>
-<ul>
-<li>Hold office hours throughout week to provide help for students on homework and class material</li>
-<li>Grade homework problems and provide written feedback</li>
-</ul>
-<h3 class="header">Skills</h3>
-<p>Computer: Java, C++, C, HTML, CSS, JavaScript, willing and able to learn 
-other languages if necessary</p>
-<h3 class="header">Activities</h3>
-<p>JumboCode</p>
-<ul>
-<li>Community service club that develops software for groups 
-in and around the greater Boston area.</li> 
-</ul>
-<p>Tufts Enigma</p> 
-<ul>
-<li>Data science journal that takes on semester long projects 
-in teams and publishes the results and findings online</li>
-</ul>
-<p>Tufts Daily</p>
-<ul>
-<li>Features writer for campus newspaper, published daily</li>
-</ul>
-</div>
+	<!--Main Navigation-->
+	<header>
+					<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark indigo">
+
+		  <!-- Navbar brand -->
+		  <a class="navbar-brand" href="#">Patrick Wolfe</a>
+
+		  <!-- Collapse button -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+		      aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <!-- Collapsible content -->
+		  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+		      <!-- Links -->
+		      <ul class="navbar-nav mr-auto">
+		          <li class="nav-item">
+		              <a class="nav-link" href="index.html">Home
+		              </a>
+		          </li>
+		          <li class="nav-item">
+		              <a class="nav-link" href="">Biography
+		              </a>
+		          </li>
+		          <li class="nav-item">
+		              <a class="nav-link" href="portfolio.html">Portfolio</a>
+		          </li>
+
+		          <!-- Dropdown -->
+		          <li class="nav-item active">
+
+		              <a class="nav-link" href = "resume.html">Resume</a>
+		                  <span class="sr-only">(current)</span>
+		          </li>
+
+		      </ul>
+		      <!-- Links -->
+
+		  </div>
+		  <!-- Collapsible content -->
+
+		</nav>
+		<!--/.Navbar-->
+	</header>
+	<!--Main Navigation-->
+
+	<!--Main layout-->
+	<main>
+		<br>
+		<!--Main container-->
+		<div class="container">
+			<h3>Resume</h3>
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">Education</h5>
+						<p class="card-text">Tufts University, Medford, MA<br>
+						Bachelor of Science in Computer Science<br>
+						GPA: 3.86, Dean's List</p>
+						<h5 class="card-title">Professional Experience</h5>	
+						<h6 class="card-title">Embedded Software Engineer Intern | Andium | New York, New York | May 2018 - September 2018</h6>
+						<p class="card-text">
+						15 week internship as part of a 5 person embedded team at Internet of Things focused start up<br>
+						Completed projects including implementing initial communication schema between cloud and devices and integrating embedded code with AWS CodeBuild for continuous integration and testing<br>
+						Gained experience using Agile product management workflow in professional setting <br>
+						Contributed to development of general purpose operating system for microcontrollers</p>
+						<h6 class="card-title">Project Lead | Tufts JumboCode | Medford, MA | March 2018 - Present</h6>
+						<p class="card-text">
+						Manage ten person team using Agile development workflow to build web app <br>
+						Communicate with clients to understand their requirements and design app to meet their needs
+						</p>
+						<h6 class="card-title">Teaching Assistant | Tufts Computer Science Department | Medford, MA | January 2018 - Present</h6>
+						<p class="card-text">
+						Hold office hours throughout week to provide help for students on homework and class material<br>
+						Grade homework problems and provide written feedback</p>
+						<h5 class="card-title">Skills</h5>
+						<p class="card-text">
+						Java, C++, C, HTML, CSS, JavaScript, Linux, Python
+						</p>
+						<br>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Main container-->
+	</main>
+	<!--Main layout-->
+
+	<!--Footer-->
+	<footer>
+		<br><br>
+		  <div class="container text-center">
+		    <a href="https://www.linkedin.com/in/patrick-wolfe-0b1879133"><i class="fa fa-linkedin fa-2x icon-indigo"></i></a>
+		    <a href="https://github.com/wolfep15"><i class="fa fa-github fa-2x"></i></a>
+		  </div>
+	</footer>
+	<!--Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
 </body>
+
 </html>
